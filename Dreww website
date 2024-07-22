@@ -1,0 +1,53 @@
+git clone https://github.com/yourusername/affiliate-marketing-site.git
+cd affiliate-marketing-site
+mkdir css js images
+touch index.html css/styles.css js/scripts.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Marketing Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Affiliate Marketing Site</h1>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Our Top Picks</h2>
+            <!-- Add affiliate products here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Affiliate Marketing Site</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    padding: 20px;
+}
+
+// JavaScript for dynamic functionalities (if any)
+git push origin main
+gem install jekyll bundler
+jekyll new affiliate-marketing-site
+cd affiliate-marketing-site
+bundle exec jekyll serve
+git add .
+git commit -m "Initial Jekyll site"
+git push origin main
